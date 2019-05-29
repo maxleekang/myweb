@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'index',
-    'account',
 ]
 
 MIDDLEWARE = [
@@ -79,11 +78,11 @@ WSGI_APPLICATION = 'myweb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-       # 'NAME': 'mydatabase',
-       #@'USER': 'root',
-       # 'PASSWORD':  'root',
-       #'HOST':  '127.0.0.1',
-       # 'PORT':  '3306',
+        'NAME': 'mydatabase',
+        'USER': 'root',
+        'PASSWORD':  'root',
+        'HOST':  '127.0.0.1',
+        'PORT':  '3306',
     }
 }
 
